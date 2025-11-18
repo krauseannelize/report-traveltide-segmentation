@@ -7,7 +7,7 @@
 
 ## Instruction
 
-- Include sessions starting on or after 2023‑01‑04 (post‑New Year holiday) until the last available date in the database.  
+- Include sessions starting after 2023‑01‑04 (post‑New Year holiday) until the last available date in the database.  
 - Restrict to users with more than 7 sessions during this period.
 
 ---

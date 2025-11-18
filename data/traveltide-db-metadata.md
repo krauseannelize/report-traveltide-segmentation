@@ -49,7 +49,7 @@ The following columns capture details of each booked flight, including origin, d
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| **trip_id** | `string` _(PK)_ | Unique trip identifier |
+| **trip_id** | `string` *(PK)* | Unique trip identifier |
 | **origin_airport** | `string` | Departure airport |
 | **destination** | `string` | Destination city |
 | **destination_airport** | `string` | Destination airport |
@@ -79,7 +79,7 @@ The following columns capture details of each booked hotel stay, including brand
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| **trip_id** | `string` _(PK)_ | Unique trip identifier |
+| **trip_id** | `string` *(PK)* | Unique trip identifier |
 | **hotel_name** | `string` | Hotel brand name |
 | **nights** | `int` | Number of nights stayed |
 | **rooms** | `int` | Number of rooms booked |
@@ -104,9 +104,9 @@ The following columns capture details of each browsing session, including timing
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| **session_id** | `string` _(PK)_ | Unique browsing session identifier |
-| **user_id** | `int` _(FK)_ | Links to `users.user_id` |
-| **trip_id** | `string` _(FK)_ | Links to `flights.trip_id` / `hotels.trip_id` |
+| **session_id** | `string` *(PK)* | Unique browsing session identifier |
+| **user_id** | `int` *(FK)* | Links to `users.user_id` |
+| **trip_id** | `string` *(FK)* | Links to `flights.trip_id` / `hotels.trip_id` |
 | **session_start** | `timestamp` | Session start time |
 | **session_end** | `timestamp` | Session end time |
 | **flight_discount** | `boolean` | Whether a flight discount was offered |
@@ -134,7 +134,7 @@ The following columns capture demographic and account details for each TravelTid
 
 | Column Name | Data Type | Description |
 | --- | --- | --- |
-| **user_id** | `int` _(PK)_ | Unique user identifier |
+| **user_id** | `int` *(PK)* | Unique user identifier |
 | **birthdate** | `datetime` | User’s date of birth |
 | **gender** | `string` | User gender |
 | **married** | `boolean` | Marital status |
