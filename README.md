@@ -104,8 +104,14 @@ This project follows a four‑stage approach. Each stage builds toward the goal 
 
 ## Key Findings
 
-🚧 _Work in progress_
-
-## Assessment
-
-🚧 _Work in progress_
+- **Seven distinct customer segments identified** based on booking status, family status, and trip duration: Lookers, Sprinters, Voyagers, Trailblazers, Weekenders, Go-Getters, and Adventurers
+- **Largest segments:** Sprinters (1,767), Go-Getters (1,762), and Trailblazers (1,557) represent the core customer base
+- **Behavioral differences drive segmentation:** Booking frequency, trip volume, and spending patterns vary significantly, while browsing activity and discount uptake remain consistent across groups
+- **Tailored rewards mapped to each segment:**
+  - Lookers → Exclusive discounts (conversion focus)
+  - Sprinters → Free hotel meal (family convenience)
+  - Voyagers → One night free hotel with flight (extended family value)
+  - Trailblazers → Lounge access (business comfort)
+  - Weekenders → Free checked bag (budget leisure)
+  - Go-Getters → Weekday stay discounts (price-sensitive)
+  - Adventurers → Premium upgrades (experiential rewards)
