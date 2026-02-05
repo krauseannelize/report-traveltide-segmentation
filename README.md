@@ -1,16 +1,53 @@
-# TravelTide Rewards Program
+# TravelTide Segmentation
 
-Uncovering customer segments through analysis of sessions, flights, and hotels to power TravelTide’s personalized rewards program.
+Customer segmentation analysis of TravelTide travel booking data to design a personalized rewards program, using Python (Pandas, Matplotlib, Seaborn) and SQL.
 
 ## Tools & Skills Used
 
-🚧 _Work in progress_
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat&logo=uv&logoColor=white)
 
 ## Quick Access
 
-- [Metadata Sheet](/data/traveltide-db-metadata.md)
+- [01 - Sessions EDA](notebooks/01-sessions-eda.ipynb)
+- [02 - Users Aggregation](notebooks/02-users-aggregation.ipynb)
+- [03 - Customer Segmentation](notebooks/03-customer-segmentation.ipynb)
+- [Database Metadata](data/traveltide-db-metadata.md)
+- [Presentation (PDF)](report/traveltide-presentation.pdf)
+- [Report (PDF)](report/traveltide-report.pdf)
 
-🚧 _Work in progress_
+## Setup & Installation
+
+### Prerequisites
+
+- Python 3.12+
+- [uv](https://docs.astral.sh/uv/getting-started/installation/) package manager
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/krauseannelize/report-traveltide-segmentation.git
+cd report-traveltide-segmentation
+```
+
+### 2. Install Dependencies
+
+```bash
+uv sync
+```
+
+### 3. Run the Project
+
+```bash
+uv run jupyter lab
+```
+
+> **Note:** `uv run` automatically uses the project's virtual environment—no manual activation needed.
 
 ## Project Overview
 

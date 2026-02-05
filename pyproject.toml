@@ -1,0 +1,14 @@
+[project]
+name = "report-traveltide-segmentation"
+version = "0.1.0"
+description = "Customer segmentation analysis of TravelTide travel booking data to design a personalized rewards program, using Python (Pandas, Matplotlib, Seaborn) and SQL."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.3.4",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.2",
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+]
