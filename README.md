@@ -14,12 +14,14 @@ Customer segmentation analysis of TravelTide travel booking data to design a per
 
 ## Quick Access
 
-- [01 - Sessions EDA](notebooks/01-sessions-eda.ipynb)
-- [02 - Users Aggregation](notebooks/02-users-aggregation.ipynb)
-- [03 - Customer Segmentation](notebooks/03-customer-segmentation.ipynb)
+- [Notebook 01 - Sessions EDA](notebooks/01-sessions-eda.ipynb)
+- [Notebook 02 - Users Aggregation](notebooks/02-users-aggregation.ipynb)
+- [Notebook 03 - Customer Segmentation](notebooks/03-customer-segmentation.ipynb)
 - [Database Metadata](data/traveltide-db-metadata.md)
+- [Database Schema](data/traveltide-db-schema.png)
+- [Executive Summary (PDF)](report/traveltide-report.pdf)
 - [Presentation (PDF)](report/traveltide-presentation.pdf)
-- [Report (PDF)](report/traveltide-report.pdf)
+- [Presentation (Video)](report/presentation-video.mp4)
 
 ## Setup & Installation
 
