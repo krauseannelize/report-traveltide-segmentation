@@ -19,8 +19,8 @@ Customer segmentation analysis of TravelTide travel booking data to design a per
 - [Notebook 03 - Customer Segmentation](notebooks/03-customer-segmentation.ipynb)
 - [Database Metadata](data/traveltide-db-metadata.md)
 - [Database Schema](data/traveltide-db-schema.png)
-- [Executive Summary (PDF)](report/traveltide-report.pdf)
-- [Presentation (PDF)](report/traveltide-presentation.pdf)
+- [Executive Summary (PDF)](report/executive-summary.pdf)
+- [Presentation (PDF)](report/presentation.pdf)
 - [Presentation (Video)](report/presentation-video.mp4)
 
 ## Setup & Installation
@@ -49,7 +49,7 @@ uv sync
 uv run jupyter lab
 ```
 
-> **Note:** `uv run` automatically uses the project's virtual environment—no manual activation needed.
+📌 **Note:** `uv run` automatically uses the project's virtual environment, no manual activation needed.
 
 ## Project Overview
 
@@ -95,6 +95,8 @@ This project follows a four‑stage approach. Each stage builds toward the goal 
 
 **Outcome:** Actionable customer segments with clear business relevance and perk associations.
 
+![Segmentation Roadmap](visualizations/segmentation-roadmap.png)
+
 ### 4. Presentation & Recommendations
 
 - Summarize findings in an executive‑level report and presentation.  
@@ -107,6 +109,9 @@ This project follows a four‑stage approach. Each stage builds toward the goal 
 ## Key Findings
 
 - **Seven distinct customer segments identified** based on booking status, family status, and trip duration: Lookers, Sprinters, Voyagers, Trailblazers, Weekenders, Go-Getters, and Adventurers
+
+![Segment Distribution](visualizations/segment-distribution.png)
+
 - **Largest segments:** Sprinters (1,767), Go-Getters (1,762), and Trailblazers (1,557) represent the core customer base
 - **Behavioral differences drive segmentation:** Booking frequency, trip volume, and spending patterns vary significantly, while browsing activity and discount uptake remain consistent across groups
 - **Tailored rewards mapped to each segment:**
